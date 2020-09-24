@@ -1,1 +1,1 @@
-clang++ -std=c++17 -O2 -Wno-unused-result "$1" && ./a.out
+clang++ -std=c++17 -O2 -Wno-unused-result "$1" && ./a.out && rm a.out

@@ -1,6 +1,6 @@
 #include "../common.hpp"
 
-vector<vector<string>> inputs = {
+vector<tuple<string, string>> inputs = {
   
 };
 
@@ -17,7 +17,7 @@ int main() {
   for (int i = 0; i < inputs.size(); i++) {
     auto input = inputs[i];
     auto expected = outputs[i];
-    auto real = solution(input[0], input[1]);
+    auto real = solution(get<0>(input), get<1>(input));
 
     if(real == expected) {
       cout << "success" << endl;

@@ -2,6 +2,8 @@
 #include <vector>
 #include <cstdlib>
 #include <unordered_map>
+#include <tuple>
+#include <algorithm>
 
 using namespace std;
 
