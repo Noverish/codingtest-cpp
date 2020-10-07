@@ -2,6 +2,7 @@
 #include <vector>
 #include <cstdlib>
 #include <unordered_map>
+#include <unordered_set>
 #include <tuple>
 #include <algorithm>
 
@@ -18,4 +19,12 @@ ostream& operator<<(ostream& out, const vector<T>& v) {
   }
   out << "}";
   return out;
+}
+
+template<typename K, typename V>
+ostream& operator<<(ostream& out, const unordered_map<K,V>& m) {
+	for (const pair<K, V>& p: m) {
+		out << "{" << p.first << ": " << p.second << "} ";
+	}
+	return out;
 }
