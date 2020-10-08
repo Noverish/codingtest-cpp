@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <numeric>
 
 using namespace std;
 
@@ -37,6 +38,8 @@ int main() {
     arr3[1] = 2;
     cout << range_vector << endl;
     cout << arr3 << endl;
+
+    int sum = accumulate(arr1.begin(), arr1.end(), 0);
 
     return 0;
 }
