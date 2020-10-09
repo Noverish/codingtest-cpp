@@ -35,3 +35,11 @@ $ ./run.sh "leetcode/728. Self Dividing Numbers.cpp" # example
 
 - [연결 요소의 개수 구하기](https://www.acmicpc.net/problem/11724): DFS, BFS를 visit 배열이 전부 true가 될 때 까지 반복
 - [이분그래프 판별](https://www.acmicpc.net/problem/1707): DFS, BFS로 빨강 파랑 칠해가면서 해결
+- [unweighted undirected graph의 MST](https://programmers.co.kr/learn/courses/30/lessons/49189?language=cpp): BFS
+- 위상 정렬
+  - https://www.acmicpc.net/problem/2252
+  - https://www.acmicpc.net/problem/1766
+  - https://www.acmicpc.net/problem/2056
+  - https://www.acmicpc.net/problem/1516
+- 플로이드 워셜 알고리즘: 모든 정점에서 모든 정점으로의 최단 비용 O(n^3)
+  - [프로그래머스 - 순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
