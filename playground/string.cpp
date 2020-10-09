@@ -6,6 +6,7 @@ using namespace std;
 
 int main() {
     string str1 = "abcdefg";
+    string str4(10, '0'); // "0000000000"
 
     // reverse string
     reverse(str1.begin(), str1.end()); // gfedcba
