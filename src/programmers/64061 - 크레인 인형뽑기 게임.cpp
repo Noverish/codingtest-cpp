@@ -1,4 +1,8 @@
-#include "../common.hpp"
+#include <iostream>
+#include <vector>
+#include "../print_utils.hpp"
+
+using namespace std;
 
 vector<vector<vector<int>>> inputs1 = {
   {

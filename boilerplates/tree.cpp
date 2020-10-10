@@ -1,4 +1,8 @@
-#include "../common.hpp"
+#include <unordered_map>
+#include <string>
+#include <iostream>
+
+using namespace std;
 
 class Node {
   public:

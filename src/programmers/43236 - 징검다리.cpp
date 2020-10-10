@@ -1,4 +1,8 @@
-#include "../common.hpp"
+#include <iostream>
+#include <vector>
+#include <tuple>
+
+using namespace std;
 
 vector<tuple<int, vector<int>, int>> inputs = {
     {25, {2, 14, 11, 21, 17}, 2}
@@ -49,7 +53,7 @@ int solution(int distance, vector<int> rocks, int n) {
         return tmp_num;
     });
     
-    return i;
+    return i - 1;
 }
 
 int main() {

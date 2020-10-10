@@ -1,8 +1,13 @@
-#include "../common.hpp"
+#include <iostream>
+#include <vector>
+#include <string>
+#include <tuple>
+#include <unordered_map>
+
+using namespace std;
 
 #define CITY_MAX 10000
 #define MODULO 10007
-#include <unordered_map>
 
 vector<tuple<string, string, string, vector<vector<string>>>> inputs = {
     {"SEOUL", "DAEGU", "YEOSU", {{"ULSAN","BUSAN"},{"DAEJEON","ULSAN"},{"DAEJEON","GWANGJU"},{"SEOUL","DAEJEON"},{"SEOUL","ULSAN"},{"DAEJEON","DAEGU"},{"GWANGJU","BUSAN"},{"DAEGU","GWANGJU"},{"DAEGU","BUSAN"},{"ULSAN","DAEGU"},{"GWANGJU","YEOSU"},{"BUSAN","YEOSU"}}},

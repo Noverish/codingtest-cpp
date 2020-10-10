@@ -1,4 +1,9 @@
-#include "../common.hpp"
+#include <iostream>
+#include <vector>
+#include <tuple>
+#include <queue>
+
+using namespace std;
 
 vector<tuple<int, vector<vector<int>>>> inputs = {
     {6, {{3, 6}, {4, 3}, {3, 2}, {1, 3}, {1, 2}, {2, 4}, {5, 2}}}
@@ -9,7 +14,6 @@ int outputs[] = {
 };
 
 int solution(int n, vector<vector<int>> edge) {
-  
     vector<int> tree(n + 1, 0);
     vector<int> visit(n + 1);
     vector<int> rel[n + 1];

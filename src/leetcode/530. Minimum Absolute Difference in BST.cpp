@@ -1,4 +1,8 @@
-#include "../common.hpp"
+#include <iostream>
+#include <cmath>
+#include <vector>
+
+using namespace std;
 
 struct TreeNode {
   int val;

@@ -1,4 +1,9 @@
-#include "../common.hpp"
+#include <iostream>
+#include <cmath>
+#include <tuple>
+#include <vector>
+
+using namespace std;
 
 vector<tuple<vector<int>, int>> inputs = {
     {{10, 5, 2, 6}, 100}};

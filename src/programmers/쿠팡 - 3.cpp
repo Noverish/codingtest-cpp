@@ -1,6 +1,10 @@
-#include "../common.hpp"
-
+#include <iostream>
+#include <vector>
+#include <tuple>
 #include <unordered_map>
+
+using namespace std;
+
 
 vector<tuple<int, vector<int>>> inputs = {
     {3, {24,22,20,10,5,3,2,1}},

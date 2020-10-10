@@ -1,4 +1,8 @@
-#include "../common.hpp"
+#include <iostream>
+#include <cmath>
+#include <vector>
+
+using namespace std;
 
 vector<vector<int>> inputs1 = {
   {1,12,-5,-6,50,3},

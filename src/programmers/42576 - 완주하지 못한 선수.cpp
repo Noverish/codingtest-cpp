@@ -1,4 +1,9 @@
-#include "../common.hpp"
+#include <iostream>
+#include <vector>
+#include <string>
+#include <unordered_map>
+
+using namespace std;
 
 vector<vector<vector<string>>> inputs = {
   {{"leo", "kiki", "eden"}, {"eden", "kiki"}},

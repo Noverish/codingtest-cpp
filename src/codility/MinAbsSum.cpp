@@ -1,8 +1,15 @@
-#include "../common.hpp"
-#include <numeric>
 // problem: https://app.codility.com/programmers/lessons/17-dynamic_programming/min_abs_sum
 // helps: https://bgrooot.github.io/codility-minabssum/
 // result: https://app.codility.com/demo/results/trainingYAVV88-YU7/
+
+#include <unordered_map>
+#include <string>
+#include <iostream>
+#include <cmath>
+#include <vector>
+#include <numeric>
+
+using namespace std;
 
 vector<vector<int>> inputs = {
     {1, 5, 2, -2}

@@ -1,4 +1,10 @@
-#include "../common.hpp"
+#include <iostream>
+#include <vector>
+#include <string>
+#include <unordered_map>
+#include <unordered_set>
+
+using namespace std;
 
 vector<vector<vector<string>>> inputs = {
   {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}},

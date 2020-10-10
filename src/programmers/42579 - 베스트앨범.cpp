@@ -1,4 +1,11 @@
-#include "../common.hpp"
+#include <iostream>
+#include <vector>
+#include <string>
+#include <unordered_map>
+#include <tuple>
+#include "../print_utils.hpp"
+
+using namespace std;
 
 vector<tuple<vector<string>, vector<int>>> inputs = {
   {{"classic", "pop", "classic", "classic", "pop"}, {500, 600, 150, 800, 2500}}

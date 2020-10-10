@@ -1,5 +1,9 @@
-#include "../common.hpp"
+#include <iostream>
+#include <vector>
+#include <string>
 #include <queue>
+
+using namespace std;
 
 vector<tuple<vector<int>, int>> inputs = {
     {{1, 2, 3, 9, 10, 12}, 7}

@@ -1,4 +1,7 @@
-#include "../common.hpp"
+#include <iostream>
+#include <vector>
+
+using namespace std;
 
 vector<tuple<int, vector<int>>> inputs = {
   {6, {7, 10}},
