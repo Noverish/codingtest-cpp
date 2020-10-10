@@ -1,20 +1,18 @@
-#include <algorithm>
-#include <cstdlib>
 #include <iostream>
-#include <tuple>
 #include <unordered_map>
-#include <unordered_set>
 #include <vector>
 #include <queue>
 
 using namespace std;
 
+// Pair
 template <typename K, typename V>
 ostream& operator<<(ostream& out, const pair<K, V>& p) {
     out << "{" << p.first << ", " << p.second << "}";
     return out;
 }
 
+// Vector
 template <typename T>
 ostream& operator<<(ostream& out, const vector<T>& v) {
     out << "{";
@@ -28,6 +26,7 @@ ostream& operator<<(ostream& out, const vector<T>& v) {
     return out;
 }
 
+// Map
 template <typename K, typename V>
 ostream& operator<<(ostream& out, const unordered_map<K, V>& m) {
     for (const pair<K, V>& p : m) {
@@ -36,6 +35,7 @@ ostream& operator<<(ostream& out, const unordered_map<K, V>& m) {
     return out;
 }
 
+// Queue
 template <typename T>
 ostream& operator<<(ostream& out, queue<T> v) {
     out << "{";

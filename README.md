@@ -2,12 +2,14 @@
 My solutions for
 [Baekjoon](https://www.acmicpc.net/),
 [leetcode](https://leetcode.com/problemset/all/),
-[programmers](http://programmers.co.kr/learn/challenges)
+[programmers](https://programmers.co.kr/learn/challenges)
+[geeksforgeeks](https://www.geeksforgeeks.org/)
+[codility](https://app.codility.com/programmers/lessons)
 problems
 
 ```shell
 $ ./run.sh [cpp file path]
-$ ./run.sh "leetcode/728. Self Dividing Numbers.cpp" # example
+$ ./run.sh "src/leetcode/728. Self Dividing Numbers.cpp" # example
 ```
 
 # Know-How

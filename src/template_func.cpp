@@ -1,4 +1,9 @@
-#include "../common.hpp"
+#include <vector>
+#include <tuple>
+#include <string>
+#include <iostream>
+
+using namespace std;
 
 vector<tuple<string, string>> inputs = {
 
