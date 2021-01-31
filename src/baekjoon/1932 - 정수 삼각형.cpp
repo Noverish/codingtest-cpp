@@ -36,9 +36,9 @@ int main() {
       copy(arr3.begin(), arr3.end(), arr1.begin());
     }
 
-    int max =  *max_element(arr1.begin(), arr1.end());
+    int max_v =  *max_element(arr1.begin(), arr1.end());
 
-    cout << max;
+    cout << max_v;
 
     return 0;
 }
