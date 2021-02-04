@@ -15,14 +15,14 @@ ostream& operator<<(ostream& out, const pair<K, V>& p) {
 // Vector
 template <typename T>
 ostream& operator<<(ostream& out, const vector<T>& v) {
-    out << "{";
+    out << "[";
     size_t last = v.size() - 1;
     for (size_t i = 0; i < v.size(); ++i) {
         out << v[i];
         if (i != last)
             out << ", ";
     }
-    out << "}";
+    out << "]";
     return out;
 }
 
